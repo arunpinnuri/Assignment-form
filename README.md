@@ -12,7 +12,8 @@ In this form we take :Email ,Name ,Phone number,and the pdf file as input .
 
 **Preview:-
 
-This is the form which takes input![Screenshot (30)](https://user-images.githubusercontent.com/87922322/134214176-56333662-7b59-4429-b4c0-53947a934125.png)
+This is the form which takes input![Screenshot (32)](https://user-images.githubusercontent.com/87922322/134215013-c965b76f-cb5c-48b4-9daf-fb276ddcf408.png)
+
 
 This is the database which store data from html form![Screenshot (31)](https://user-images.githubusercontent.com/87922322/134214403-fe612391-0e93-4db0-bc86-93d07a74ae99.png)
 
