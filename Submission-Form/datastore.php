@@ -26,7 +26,7 @@ if (isset($_POST['submit'])) {
     VALUES ('$email', '$name', '$number', '$title', '$type', '$encodePdf')";
     $result = $link->query($sql);
     if ($result) {
-        echo 'Your assignment form submitted successfully....';
+        echo '<h2>Your assignment form submitted successfully....</h2>';
     } else {
         echo "Error";
     }
