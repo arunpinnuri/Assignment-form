@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <title>Submission Form</title>
+  </head>
+  <body>
+    <div class="container p-5" style="align-items: center;">
+      <div class="card border-dark mb-9" style="max-width: 45rem">
+        <div class="card-header">Week 3 - Challenge</div>
+        <div class="card-body text-dark">
+          <h5 class="card-title">
+            Hi there:-) I am making this assignment submission form for my
+            Challenge given by Developer Days.
+          </h5>
+          <hr>
+          <form action="datastore.php" method="POST" >
+            <div class="mb-3 card-header" >
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" autocomplete="off" placeholder="Enter your Email">
+            </div>
+            <div class="mb-3 card-header" >
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" name="name" id="name" aria-describedby="textHelp" autocomplete="off" placeholder="Enter your Full Name">
+            </div>
+            <div class="mb-3 card-header" >
+              <label for="phone" class="form-label">Phone Number</label>
+              <input type="tel" class="form-control" name="number" id="number" aria-describedby="phoneHelp" autocomplete="off" placeholder="Enter your Phone number">
+            </div>
+            <div class="mb-3 card-header">
+              <label for="formFileMultiple" class="form-label">Upload Your Flies </label>
+              <input class="form-control" type="file" name="files" id="files_pdf" accept=".pdf" multiple>
+              <input type="hidden" name="MAX_FILE_SIZE" value="67108864"/>
+            </div>
+            <button type="submit" name="submit" class="btn btn-primary" >Submit</button>
+          </form> 
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
